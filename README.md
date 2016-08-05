@@ -13,18 +13,18 @@ https://www.learnhowtoprogram.com/javascript/modern-js-apps/modern-js-apps-indep
 
 Requirement & Objectives | Complete
 :------------- | :-------------: |
-*Requirement*: Create a website where the user can enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. | --
-*Objective*: The website works as expected. | --
-*Objective*: Concatenation, minification, and running the browserify package on JavaScript. | --
-*Objective*: Building and cleaning. | --
-*Objective*: Running the development server with live reloading. | --
-*Objective*: Running JSHint. | --
-*Objective*: Automatically includies Bower dependencies as vendor.min.js and vendor.css. | --
-*Objective*: ollow all setup instructions, including storing my API key in the variable `exports.apiKey`. | --
-*Objective*: the app includes at least 2 JavaScript files. | --
-*Objective*: `exports` is used successfully in at least one JavaScript file. | --
-*Objective*: dependencies are managed with npm and Bower. | --
-*Objective*:  The app includes a gulp-based asset pipeline with a development server. | --
+*Requirement*: Create a website where the user can enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. | X
+*Objective*: The website works as expected. | X
+*Objective*: Uses concatenation, minification, and runs the browserify package. | X
+*Objective*: Users gulp build and clean tasks. | X
+*Objective*: Runs the development server with live reloading. | X
+*Objective*: Runs JSHint. | --
+*Objective*: Automatically includes Bower dependencies as vendor.min.js and vendor.css. | --
+*Objective*: READMe provides setup instructions, including storing an API key in the variable `exports.apiKey`. | X
+*Objective*: The app includes at least 2 JavaScript files. | X
+*Objective*: `exports` is used successfully in at least one JavaScript file. | X
+*Objective*: dependencies are managed with npm and Bower. | X
+*Objective*:  The app includes a gulp-based asset pipeline with a development server. | X
 
 * _Epicodus JavaScript Coursework is viewable at:_
 https://www.learnhowtoprogram.com/javascript
