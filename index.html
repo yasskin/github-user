@@ -15,8 +15,8 @@
         <div class="col-md-6 col-md-offset-3">
           <div id="user-lookup">
             <h1>GitHub User Lookup: Modern JS Apps Independent Project</h1>
-            <br>
-            <h3>Find out about a GitHub user's public repository.</h3>
+            <hr>
+            <h3>Find out about a GitHub user's public repository</h3>
               <div class="box">
                 <label for="username">Enter a GitHub username:</label>
                 <input id="username" type="text" placeholder="GitHub Username">
@@ -24,8 +24,19 @@
                 <div class="showUser"></div>
               </div>
           </div>
+          <div id="user-show">
+            <p>GitHub profile for <span class="response-login"></span> </p>
+              <div id="response-avatar"></div>
+              <div>Name: <span id="response-name"></span></div>
+              <div>Bio: <span id="response-bio"></span></div>
+              <div>Location: <span id="response-location"></span></div>
+              <div>Number of Repositories: <span id="response-count"></span></div>
+              <div>Followers: <span id="response-followers"></span> vs Following: <span id="response-following"></span></div>
+              <div>GitHub Leadership Score: <span id="response-ratio"></span></div>
+              <hr>
+          </div>
           <div id="results-show">
-            <p>GitHub Username: <span id="username-result"></span></p>
+            <p>GitHub Repository for <span class="response-login"></span> (Project Name | Description): <span id="username"></span></p>
               <ul id="repository-list">
               </ul>
           </div>
