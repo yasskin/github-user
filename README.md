@@ -39,6 +39,12 @@ https://github.com/yasskin/github-user.git
 1. Visit the Settings area of your GitHub account, select Personal Access Tokens from the sidebar, and hit Generate New Token.
 2. GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal data. Select "Generate Token".
 3. For security purposes, place your token in an .env file at the top level of your directory. And Include .env in .gitignore.
+4. Create an .env file that includes your GitHub API Key.
+
+```
+.env
+exports.apiKey = "PUT-YOUR-API-KEY-HERE"
+```
 
 * _After creating a `.env` file and obtaining a Personal Access Token, install npm and bower_
 
@@ -51,7 +57,6 @@ $ npm install <!-- saved into node_modules/ -->
 ```
 $ bower install <!-- saved into bower_components/ -->
 ```
-
 
 ## Known Bugs
 

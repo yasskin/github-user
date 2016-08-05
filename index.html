@@ -13,15 +13,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <h1>GitHub User Lookup: Modern JS Apps Independent Project</h1>
-          <br>
-          <h3>Find out about a GitHub user's public repository.</h3>
-            <div class="box">
-              <label for="username">Enter a GitHub username:</label>
-              <input id="username" type="text" placeholder="GitHub Username">
-              <button id="githubUsername" class="btn btn-success">Submit</button>
-              <div class="showUser"></div>
-            </div>
+          <div id="user-lookup">
+            <h1>GitHub User Lookup: Modern JS Apps Independent Project</h1>
+            <br>
+            <h3>Find out about a GitHub user's public repository.</h3>
+              <div class="box">
+                <label for="username">Enter a GitHub username:</label>
+                <input id="username" type="text" placeholder="GitHub Username">
+                <button id="githubUsername" class="btn btn-success">Submit</button>
+                <div class="showUser"></div>
+              </div>
+          </div>
+          <div id="results-show">
+            <p>GitHub Username: <span id="username-result"></span></p>
+              <ul id="repository-list">
+              </ul>
+          </div>
+          <div id="error-show">
+            <p>Your search resulted in an error: <span id="error-text"></span></p>
+          </div>
         </div>
       </div>
     </div>
