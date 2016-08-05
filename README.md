@@ -34,23 +34,20 @@ https://www.learnhowtoprogram.com/javascript
 * _Clone the repository from GitHub_
 https://github.com/yasskin/github-user.git
 
-* _this app requires a Personal Access Token_
-
-* _to obtain a Personal Access Token_
+* _This app requires a Personal Access Token. To obtain one_
 
 1. Visit the Settings area of your GitHub account, select Personal Access Tokens from the sidebar, and hit Generate New Token.
-2. GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal data.
-3. Finally, select Generate Token.
-4. For security purposes, place your token in an .env file at the top level of your directory. And Include .env in .gitignore.
+2. GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal data. Select "Generate Token".
+3. For security purposes, place your token in an .env file at the top level of your directory. And Include .env in .gitignore.
 
 * _After creating a `.env` file and obtaining a Personal Access Token, install npm and bower_
 
 
-* _Gather the back-end packages the program requires_
+1. Gather the back-end packages the program requires
 ```
 $ npm install <!-- saved into node_modules/ -->
 ```
-* _Gather the front-end packages the program requires_
+2. Gather the front-end packages the program requires
 ```
 $ bower install <!-- saved into bower_components/ -->
 ```
@@ -58,7 +55,7 @@ $ bower install <!-- saved into bower_components/ -->
 
 ## Known Bugs
 
-* _none so far_
+* _None so far_
 
 ## Support and contact details
 
