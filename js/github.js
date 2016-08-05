@@ -27,6 +27,7 @@ GitHub.prototype.getRepos = function(username) {
     var ratio = (response.followers / response.following);
     var r = ratio.toFixed(2);
     $('#response-ratio').append(r);
+    highScoreGenerator(r);
     $('#user-list').empty("");
     for (var i = 0; i < response.length; i ++) {
       $('#user-list').append("<li>" + response[i].name + " : " + "</li>");
@@ -49,6 +50,20 @@ console.log(response);
     $('#error-show').show();
     $('#error-text').text(error.responseJSON.message);
   });
+  var highScores = highScoreGenerator(r);
+  highScores.forEach(function(score))
 };
+
+var arrayScores = [];
+
+var highScoreGenerator = function(r) {
+    arrayScores.push(r);
+    arrayScores.sort(sortHighToLow);
+    function sortHightoLow(a, b) {
+      return b - a;
+    }
+  return arrayScores;
+};
+
 
 exports.reposModule = GitHub;
