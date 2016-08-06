@@ -18,13 +18,13 @@ Requirement & Objectives | Complete
 *Objective*: Uses concatenation, minification, and runs the browserify package. | X
 *Objective*: Users gulp build and clean tasks. | X
 *Objective*: Runs the development server with live reloading. | X
-*Objective*: Runs JSHint. | --
-*Objective*: Automatically includes Bower dependencies as vendor.min.js and vendor.css. | --
-*Objective*: READMe provides setup instructions, including storing an API key in the variable `exports.apiKey`. | X
+*Objective*: Runs JSHint. | X
+*Objective*: Automatically includes Bower dependencies as vendor.min.js and vendor.css. | X
+*Objective*: README provides setup instructions, including how to store an API key in the variable `exports.apiKey`. | X
 *Objective*: The app includes at least 2 JavaScript files. | X
-*Objective*: `exports` is used successfully in at least one JavaScript file. | X
-*Objective*: dependencies are managed with npm and Bower. | X
-*Objective*:  The app includes a gulp-based asset pipeline with a development server. | X
+*Objective*: Keyword `exports` is used successfully in at least one JavaScript file. | X
+*Objective*: Dependencies are managed with npm and Bower. | X
+*Objective*: The app includes a gulp-based asset pipeline with a development server. | X
 
 * _Epicodus JavaScript Coursework is viewable at:_
 https://www.learnhowtoprogram.com/javascript
@@ -64,7 +64,7 @@ $ bower install <!-- saved into bower_components/ -->
 
 ## Support and contact details
 
-* _view the repository on GitHub at:_
+* _View the repository on GitHub at:_
 https://github.com/yasskin/github-user
 
 _If you run into any issues or have questions, ideas, or concerns, please feel free to contact Noah:_
