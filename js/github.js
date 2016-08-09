@@ -50,19 +50,6 @@ console.log(response);
     $('#error-show').show();
     $('#error-text').text(error.responseJSON.message);
   });
-  var highScores = highScoreGenerator(r);
-  highScores.forEach(function(score))
-};
-
-var arrayScores = [];
-
-var highScoreGenerator = function(r) {
-    arrayScores.push(r);
-    arrayScores.sort(sortHighToLow);
-    function sortHightoLow(a, b) {
-      return b - a;
-    }
-  return arrayScores;
 };
 
 
